@@ -6,19 +6,18 @@ This is the backend server for the **Spotify Vibe Check** app. It runs on **Node
 
 ## 🚀 How to Deploy on Render
 
-1. Log into [Render](https://render.com) (sign up with your GitHub account).
-2. Click **"New +"** ➔ **"Web Service"**.
-3. Choose **"Build and deploy from a Git repository"** and select this backend repository.
-4. Fill in the settings:
-   * **Name**: `my-spotify-music-api` (or any name you like)
-   * **Language / Runtime**: `Node`
-   * **Branch**: `main`
-   * **Build Command**: *(leave empty)*
-   * **Start Command**: `npm start` (or `node server.js`)
-   * **Instance Type**: `Free`
-5. Click **"Deploy Web Service"**.
-6. Once deployed, Render will give you a public URL (e.g. `https://my-spotify-music-api.onrender.com`).
-7. Copy this URL and paste it into your Vercel frontend website!
+1. Log into [Render](https://render.com) using your GitHub account.
+2. On your Render dashboard, click **"Deploy a Web Service ➔"** (or click **"+ New"** in the top-right ➔ **"Web Service"**).
+3. Under **"Git Provider"**, find and click your backend repository (e.g. `spotify-vibe-check-backend`).
+4. On the **New Web Service** configuration screen:
+   * **Name**: ⚠️ **Important:** Change this to a unique name with your name in it (e.g., `spotify-backend-alex` or `music-api-sarah`). *This determines your public API URL!*
+   * **Language**: `Node` *(autofilled)*
+   * **Branch**: `main` *(autofilled)*
+   * **Start Command**: `node server.js` *(autofilled)*
+   * **Compute**: Scroll down and select the **`$0 / month Free`** tier.
+5. Click the white **"Deploy web service"** button at the bottom-left.
+6. Once deployed (~1-2 minutes), Render will give you your unique public URL at the top (e.g. `https://spotify-backend-alex.onrender.com`).
+7. Copy this URL and paste it into your live Vercel frontend website!
 
 ---
 
