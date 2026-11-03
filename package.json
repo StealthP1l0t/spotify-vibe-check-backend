@@ -1,0 +1,15 @@
+{
+  "name": "spotify-music-microservice",
+  "version": "1.0.0",
+  "description": "Backend microservice for Spotify Vibe Check demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["microservices", "spotify", "demo", "education"],
+  "author": "",
+  "license": "ISC"
+}
